@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/text">
+        <file alias="vars">aqt_vars.txt</file>
+    </qresource>
+</RCC>
