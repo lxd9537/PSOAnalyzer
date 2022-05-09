@@ -1,0 +1,51 @@
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
+
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::MainWindow)
+{
+    ui->setupUi(this);
+    connect(ui->pushButton,&QPushButton::clicked,this,&MainWindow::on_import_clicked);
+    connect(ui->pushButton_2,&QPushButton::clicked,this,&MainWindow::on_export_clicked);
+}
+
+MainWindow::~MainWindow()
+{
+    delete ui;
+}
+
+void MainWindow::on_import_clicked()
+{
+
+
+}
+
+void MainWindow::on_export_clicked()
+{
+
+//    QTextCodec *codec = QTextCodec::codecForName("UTF-8");
+
+ /*   QTextCodec::setCodecForLocale(QTextCodec::codecForLocale());
+
+
+
+    configIniWrite->setValue("/表单信息/表单类型", ui->comboBox->currentText());
+    configIniWrite->setValue("/表单信息/功能要素表编号", ui->lineEdit->text());
+    char s[30]="/表单信息/表单类型";
+
+    //QString a="/表单信息/日期";
+    configIniWrite->setValue(a.toUtf8(), ui->lineEdit_2->text());
+
+*/
+    QSettings *configIniWrite = new QSettings("config.ini", QSettings::IniFormat);
+    configIniWrite->setIniCodec(QTextCodec::codecForName("UTF-8"));
+
+    configIniWrite->setValue("/表单信息/表单类型", ui->comboBox->currentText());
+    configIniWrite->setValue("/表单信息/功能要素表编号", ui->lineEdit->text());
+    configIniWrite->setValue("/表单信息/日期", ui->lineEdit_2->text());
+
+
+    QMessageBox::information(nullptr,"导出配置","导出配置完成！");
+
+}

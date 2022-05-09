@@ -1,0 +1,60 @@
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+#include <pumpsys.h>
+#include <qcustomplot.h>
+#include <QtMath>
+#include <QDir>
+#include "global.h"
+#include "qxtcsvmodel.h"
+
+
+namespace Ui {
+class MainWindow;
+}
+
+class MainWindow : public QMainWindow
+{
+
+    QCPItemEllipse *m_test_point_ellipse[POINTS_MAX];
+
+    Q_OBJECT
+
+public:
+    explicit MainWindow(QWidget *parent = nullptr);
+    ~MainWindow();
+
+private:
+
+    Ui::MainWindow          *ui;
+    bool                    m_assembly_plot_flag;
+    double                  m_sensorless_Hz;
+
+private slots:
+    void on_comboBox_pumpmodel_qty_currentIndexChanged(const QString &arg1);
+    void on_comboBox_model_number_currentIndexChanged(const QString &arg1);
+    void on_comboBox_choose_pump_curve_currentTextChanged(const QString &arg1);
+    void on_pushButton_import_pump_curve_clicked();
+    void on_pushButton_plot_pump_curve_clicked();
+    void on_pushButton_plot_assembly_curve_clicked();
+    void on_lineEdit_Hz_editingFinished();
+    void on_comboBox_pump_number_2_currentTextChanged(const QString &arg1);
+    void on_comboBox_choose_sensorless_curve_currentTextChanged(const QString &arg1);
+    void on_pushButton_plot_sensorless_curve_clicked();
+    void on_comboBox_pump_number_3_currentTextChanged(const QString &arg1);
+    void on_pushButton_plot_vfd_curve_clicked();
+    void on_pushButton_Hz_calculation_clicked();
+    void on_comboBox_pump_qty_currentTextChanged(const QString &arg1);
+    void on_pushButton_import_piping_curve_clicked();
+    void on_pushButton_plot_piping_curve_clicked();
+    void on_pushButton_show_import_result_clicked();
+    void on_pushButton_energy_saving_calculation_clicked();
+    void on_lineEdit_target_flow_editingFinished();
+    void on_pushButton_SameModelCompare_clicked();
+    void on_pushButton_DiffModelCompare_clicked();
+    void on_pushButton_DiffFreqCompare_clicked();
+    void on_pushButton_DiffModelCompare_2_clicked();
+};
+
+#endif // MAINWINDOW_H

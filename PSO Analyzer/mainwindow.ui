@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>11</pointsize>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>PSO分析系统</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 290 11pt &quot;Microsoft YaHei&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <widget class="QWidget" name="page"/>
+      <widget class="QWidget" name="page_2"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>项目</string>
+    </property>
+    <addaction name="openProject"/>
+    <addaction name="newProject"/>
+    <addaction name="viewProject"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>曲线</string>
+    </property>
+    <addaction name="histCurve"/>
+    <addaction name="performCurve"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>工具</string>
+    </property>
+    <addaction name="singlePumpCalculator"/>
+    <addaction name="pumpGroupCalculator"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>数据库</string>
+    </property>
+    <addaction name="pumpDataManage"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="pumpDataManage">
+   <property name="text">
+    <string>管理水泵数据库</string>
+   </property>
+   <property name="toolTip">
+    <string>管理水泵性能数据</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::AboutQtRole</enum>
+   </property>
+  </action>
+  <action name="openProject">
+   <property name="text">
+    <string>打开项目</string>
+   </property>
+   <property name="toolTip">
+    <string>打开项目</string>
+   </property>
+  </action>
+  <action name="newProject">
+   <property name="text">
+    <string>新建项目</string>
+   </property>
+   <property name="toolTip">
+    <string>新建项目</string>
+   </property>
+  </action>
+  <action name="histCurve">
+   <property name="text">
+    <string>历史记录曲线</string>
+   </property>
+   <property name="toolTip">
+    <string>历史记录曲线</string>
+   </property>
+  </action>
+  <action name="singlePumpCalculator">
+   <property name="text">
+    <string>单泵计算工具</string>
+   </property>
+   <property name="toolTip">
+    <string>单泵计算工具</string>
+   </property>
+  </action>
+  <action name="performCurve">
+   <property name="text">
+    <string>水泵性能曲线</string>
+   </property>
+  </action>
+  <action name="pumpGroupCalculator">
+   <property name="text">
+    <string>泵组计算工具</string>
+   </property>
+   <property name="toolTip">
+    <string>泵组计算工具</string>
+   </property>
+  </action>
+  <action name="viewProject">
+   <property name="text">
+    <string>查看项目</string>
+   </property>
+   <property name="toolTip">
+    <string>查看项目</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

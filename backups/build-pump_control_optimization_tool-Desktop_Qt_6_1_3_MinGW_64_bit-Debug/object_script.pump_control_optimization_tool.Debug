@@ -1,0 +1,16 @@
+debug/examples.o
+debug/global.o
+debug/main.o
+debug/mainwindow.o
+debug/mycustomplot.o
+debug/piping.o
+debug/polyfit.o
+debug/pump.o
+debug/pumpsys.o
+debug/qcustomplot.o
+debug/qxtcsvmodel.o
+debug/readonlylineedit.o
+debug/moc_mainwindow.o
+debug/moc_pump.o
+debug/moc_qcustomplot.o
+debug/moc_qxtcsvmodel.o

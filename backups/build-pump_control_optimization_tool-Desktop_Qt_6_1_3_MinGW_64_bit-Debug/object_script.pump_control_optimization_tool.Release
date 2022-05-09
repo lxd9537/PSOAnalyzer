@@ -1,0 +1,16 @@
+release/examples.o
+release/global.o
+release/main.o
+release/mainwindow.o
+release/mycustomplot.o
+release/piping.o
+release/polyfit.o
+release/pump.o
+release/pumpsys.o
+release/qcustomplot.o
+release/qxtcsvmodel.o
+release/readonlylineedit.o
+release/moc_mainwindow.o
+release/moc_pump.o
+release/moc_qcustomplot.o
+release/moc_qxtcsvmodel.o

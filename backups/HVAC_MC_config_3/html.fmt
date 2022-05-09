@@ -1,0 +1,149 @@
+<font face="微软雅黑">
+<img src="Xylem_rgb.jpg" style="width:120px;"/>
+<h2 align="center" style="margin:1;" >空调系统 (HVAC) 水泵机组电控柜功能要素表</h2>
+<p><strong><u>表单信息</u></strong></p>
+<table width="100%">
+<tr>
+<td width="50%"><p>表单类型：<span style="color: #3366ff;">ZZ01</span></p></td>
+<td width="50%"><p>功能要素表编号：<span style="color: #3366ff;">ZZ02</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>功能要素表描述：<span style="color: #3366ff;">ZZ04</span></p></td>
+<td width="50%"><p>日期：<span style="color: #3366ff;">ZZ03</span></p></td>
+</tr>
+</table>
+
+<p><strong><u>系统方案</u></strong></p>
+<table width="100%">
+<tr>
+<td width="50%"><p>应用场合：<span style="color: #3366ff;">ZZ11</span></p></td>
+<td width="50%"><p>控制类型：<span style="color: #3366ff;">ZZ12</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>水泵数量：<span style="color: #3366ff;">ZZ13</span></p></td>
+<td width="50%"><p>额定电压：<span style="color: #3366ff;">ZZ14</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>额定功率(kW) ：<span style="color: #3366ff;">ZZ15</span></p></td>
+<td width="50%"><p>旁通阀控制：<span style="color: #3366ff;">ZZ16</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>旁通阀电压：<span style="color: #3366ff;">ZZ17</span></p></td>
+<td width="50%"><p>压差传感器数量：<span style="color: #3366ff;">ZZ18</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>有压差传感器：<span style="color: #3366ff;">ZZ19</span></p></td>
+<td width="50%"><p>有压力传感器：<span style="color: #3366ff;">ZZ20</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>无压差传感器：<span style="color: #3366ff;">ZZ21</span></p></td>
+<td width="50%"><p>供/回水温度传感器：<span style="color: #3366ff;">ZZ22</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>流量传感器：<span style="color: #3366ff;">ZZ23</span></p></td>
+<td width="50%"><p>电接点压力表：<span style="color: #3366ff;">ZZ24</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>电机独立风扇：<span style="color: #3366ff;">ZZ25</span></p></td>
+</tr>
+</table>
+
+<p><strong><u>驱动方案</u></strong></p>
+<table width="100%">
+<tr>
+<td width="50%"><p>配置：<span style="color: #3366ff;">ZZ31</span></p></td>
+<td width="50%"><p>变频器型号：<span style="color: #3366ff;">ZZ32</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>软起动型号：<span style="color: #3366ff;">ZZ33</span></p></td>
+<td width="50%"><p>安装方式：<span style="color: #3366ff;">ZZ34</span></p></td>
+</tr>
+</table>
+
+<p><strong><u>控制器方案</u></strong></p>
+<table width="100%">
+<tr>
+<td width="50%"><p>控制器：<span style="color: #3366ff;">ZZ41</span></p></td>
+<td width="50%"><p>触摸屏：<span style="color: #3366ff;">ZZ42</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>就地控制：<span style="color: #3366ff;">ZZ43</span></p></td>
+<td width="50%"><p>控制模式：<span style="color: #3366ff;">ZZ44</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>BAS接口：<span style="color: #3366ff;">ZZ45</span></p></td>
+</tr>
+</table>
+
+<p><strong><u>电控柜方案</u></strong></p>
+<table width="100%">
+<tr>
+<td width="50%"><p>数量：<span style="color: #3366ff;">ZZ51</span></p></td>
+<td width="50%"><p>尺寸(W*H*D mm)：<span style="color: #3366ff;">ZZ52</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>安装方式：<span style="color: #3366ff;">ZZ53</span></p></td>
+<td width="50%"><p>柜体型式：<span style="color: #3366ff;">ZZ54</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>柜体材质：<span style="color: #3366ff;">ZZ55</span></p></td>
+<td width="50%"><p>板材厚度：<span style="color: #3366ff;">ZZ56</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>柜体颜色：<span style="color: #3366ff;">ZZ57</span></p></td>
+<td width="50%"><p>进出线位置：<span style="color: #3366ff;">ZZ58</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>防护等级：<span style="color: #3366ff;">ZZ59</span></p></td>
+<td width="50%"><p>单/双层门：<span style="color: #3366ff;">ZZ60</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>元件品牌：<span style="color: #3366ff;">ZZ61</span></p></td>
+<td width="50%"><p>LOGO：<span style="color: #3366ff;">ZZ62</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>照明：<span style="color: #3366ff;">ZZ63</span></p></td>
+<td width="50%"><p>风扇位置：<span style="color: #3366ff;">ZZ64</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>底座 ：<span style="color: #3366ff;">ZZ65 </span></p></td>
+</tr>
+</table>
+
+<p><strong><u>资料提供</u></strong></p>
+<table width="100%">
+<tr>
+<td width="50%"><p>一次系统原理图：<span style="color: #3366ff;">ZZ70</span></p></td>
+<td width="50%"><p>二次系统原理图：<span style="color: #3366ff;">ZZ71</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>现场布置图：<span style="color: #3366ff;">ZZ72</span></p></td>
+</tr>
+</table>
+<p><strong><u>其它要求</u></strong></p>
+<table width="100%">
+<tr>
+<td width="50%"><p>电源监测：<span style="color: #3366ff;">ZZ81</span></p></td>
+<td width="50%"><p>手动操作：<span style="color: #3366ff;">ZZ82</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>柜间配电：<span style="color: #3366ff;">ZZ83</span></p></td>
+<td width="50%"><p>双电源：<span style="color: #3366ff;">ZZ84</span></p></td>
+</tr>
+<tr>
+<td width="50%"><p>进线电涌保护器：<span style="color: #3366ff;">ZZ85</span></p></td>
+<td width="50%"><p>电柜拼柜：<span style="color: #3366ff;">ZZ86</span></p></td>
+</tr>
+</table>
+<p><strong><u>注解及特殊要求</u></strong></p>
+<p><span style="color: #3366ff;">ZZ90</span></p>
+
+<p><strong><u>设计与审核</u></strong></p>
+<table width="100%">
+<tr>
+<td width="50%"><p>设计：<span style="color: #3366ff;">ZZ91</span></p></td>
+<td width="50%"><p>审核：<span style="color: #3366ff;">ZZ92</span></p></td>
+</tr>
+</table>
+
+</font>
